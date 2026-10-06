@@ -1,0 +1,25 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+
+# ---- Office 临时锁文件 ----
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# ---- JMeter 运行产物 ----
+*.jtl
+*.local.jmx
+
+# ---- 系统文件 ----
+Thumbs.db
+desktop.ini
